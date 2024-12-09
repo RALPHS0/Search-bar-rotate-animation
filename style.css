@@ -1,0 +1,50 @@
+body{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  
+}
+
+input{
+  width:20px;
+  height:20px;
+  background: #00ffd5;
+  border:none;
+  transition-delay: 0.2s;
+  transform:rotate(-90deg);
+  border-radius:30px;
+  transition: 5s;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input:hover{
+  width:250px;
+  height:30px;
+  background: #00ffd5;
+  border:none;
+  border-radius:30px;
+  transition:5s;
+  transition-delay: 0 2s;
+  transform:rotate(1080deg);
+  color:black;
+  left:7vh;
+}
+
+input:checked+svg{
+  width:10px;
+  background: none;
+  position:absolute;
+  left:90%;
+  transition-delay: 0.2s;
+  transition:5s;
+  transform:rotate(1080deg);
+}
+
+svg{
+  width:10px;
+transition: 5s;
+}
